@@ -1,0 +1,153 @@
+.main-body{
+    margin: 0vh;
+    font-family: Inter;
+    background-color: whitesmoke;
+}
+.heading{
+    background-color: black;
+    text-align: center;
+    color:rgba(120, 125, 255, 1);
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 4vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.line1{
+    color: black;
+    text-align: center;
+    
+    font-weight: 600;
+    font-size: 4.5vh;
+    margin-bottom: 8vh;
+    padding-top: 4.5vh;
+}
+.contain{
+    background-color: #DADBF1;
+    height: 35vh;
+    margin-bottom: 0;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+.searchbox{
+    height: 4vh;
+    width: 56vh;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 4px 4px 7px rgb(181, 181, 181);
+    padding-left: 34px;
+    position: absolute;
+    border-style: solid;
+    margin: 0;
+}
+
+.searchbox::-webkit-inner-spin-button,
+.searchbox::-webkit-outer-spin-button{
+    display: none;
+}
+.middle-section{
+    font-weight: 600;
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.currency{
+    text-align: right;
+    font-size: 24px;
+    
+}
+.count{
+    text-align: center;
+    font-size: 24px;
+
+} 
+.rupee{
+    height: 30px;
+    position: relative;
+    left: -185px;
+    top: 2px;
+    bottom: 0;
+    
+}
+.arrow{
+    height: 28px;
+    position:relative;
+    left: 180px;
+    top: 1.6px;
+}
+.currency-count{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border: 2px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-top: 15px;
+    margin-top: 40px;
+    margin-left: 340px;
+    margin-right: 450px;
+    border-radius: 7px;
+}
+.coin{
+    height: 30px;
+    float: right;
+    
+}
+.coin-img{
+    flex: 0.45;
+    position: relative;
+    height: 45px;
+    padding-right: 4px;
+    
+}
+.number{
+    font-family: Inter;
+    font-size: 22px;
+    flex: 4;
+    text-align: left;
+    height: 45px;
+    padding-top: 1.5px;
+    padding-left: 0;
+}
+.cnt{
+    font-family: Inter;
+    font-size: 20px;
+    color: rgba(120, 125, 255, 1);
+    flex: 1.28;
+    text-align: right;
+    height: 45px;
+    padding-top: 1.5px;
+    padding-right: 50px;
+}
+.last-line{
+    font-family: Inter;
+    font-size: 28px;
+    text-align: center;
+    padding-right: 85px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+.last-word{
+    color: rgba(120, 125, 255, 1);
+}
+.footer{
+    font-family: Inter;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.heart{
+    margin: 0px;
+}

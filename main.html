@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Task1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Merriweather&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="main-body">
+    <div><h1 class="heading">T.E.S.L.A</h1></div>
+    <div class="contain">
+        <div class="line1">Minimum number of currency notes</div>
+            <div class="middle">
+                <input class="searchbox" id="money" type="number" placeholder="Enter Amount in rupee">
+                <div class="search">
+                    <img alt="error" class="rupee" src="coin.png">
+                    <img alt="error" class="arrow" src="arrow.png" onclick="count_notes()">
+                </div>
+            </div>
+    </div>
+    <div class="middle-section">
+        <p class="currency">Currency Note</p>
+        <p class="count">Count</p>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            2000
+        </div>
+        <div class="cnt" id="2000">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img  alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            1000
+        </div>
+        <div class="cnt" id="1000">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number"  >
+            500
+        </div>
+        <div class="cnt" id="500">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            200
+        </div>
+        <div class="cnt" id="200">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            100
+        </div>
+        <div class="cnt" id="100">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img"> 
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            50
+        </div>
+        <div class="cnt" id="50">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            20
+        </div>
+        <div class="cnt" id="20">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            10
+        </div>
+        <div class="cnt" id="10">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            5
+        </div>
+        <div class="cnt" id="5">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            2
+        </div>
+        <div class="cnt" id="2">
+            0
+        </div>
+    </div>
+    <div class="currency-count">
+        <div class="coin-img">
+            <img alt="error" class="coin" src="coin.png">
+        </div>
+        <div class="number">
+            1
+        </div>
+        <div class="cnt" id="1">
+            0
+        </div>
+    </div>
+    <div class="last-line">
+        <p class="count-line">Minimum number of counts: <span class="last-word" id="sum">Count</span></p>
+        
+    </div>
+    <div class="footer">
+        <p class="heart">Made with &#10084; by Raveena</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
